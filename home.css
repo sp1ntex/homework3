@@ -1,0 +1,241 @@
+.service_list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  
+}
+.service {
+background-image: url("./img/Vector.svg");
+  background-repeat: no-repeat;
+  background-size: 690px 800px;
+}
+.navigation-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin-top: 125px;
+  margin-left: 100px;
+  /* width: 100%; */
+}
+.navigation-bar-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 545px;
+  margin-top: 10px;
+  margin-right: 100px;
+}
+.trafalgar {
+  display: flex;
+  flex-direction: row;
+  margin-right: 450px;
+  align-items: center;
+  justify-content: space-between;
+}
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 41px;
+  width: 41px;
+  background-color: #458ff6;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+#logo span {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 33px;
+}
+
+.rasm {
+  margin-left: 690px;
+  margin-top: 10px;
+}
+
+h1 {
+  margin-top: -400px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 130px;
+  font-size: 50px;
+}
+
+.lorem {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(126, 123, 123);
+  margin-left: 130px;
+  line-height: 25px;
+}
+
+.consult {
+  width: 140px;
+  height: 35px;
+  margin-left: 130px;
+  margin-top: 45px;
+  border-radius: 30px;
+  background-color: rgb(56, 152, 241);
+  padding-top: 10px;
+}
+
+.consult span {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 18px;
+  align-items: center;
+}
+.our {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin-top: 180px;
+  margin-left: 620px;
+  font-size: 20px;
+}
+.line {
+  width: 60px;
+  height: 4px;
+  background-color: rgb(76, 75, 75);
+  border-radius: 10px;
+  margin-left: 678px;
+  margin-top: 10px;
+}
+
+.text {
+  color: rgb(156, 152, 152);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 319px;
+  margin-top: 30px;
+}
+
+.text2 {
+  color: rgb(156, 152, 152);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 370px;
+  margin-top: 10px;
+}
+
+.navigation-bar-buttons a:hover {
+  color: black;
+}
+.navigation-bar-buttons a {
+  color: rgb(156, 152, 152);
+  text-decoration: none;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 110px;
+}
+
+.service_list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.service_item {
+  background-color: white;
+  width: 287px;
+  margin: 18px;
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.service_item-headding {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  border-radius: 60px;
+  line-height: 56px;
+  color: #000000;
+}
+
+.service_item-paragraf {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7d7987;
+}
+
+.service-link {
+  text-decoration: none;
+  margin-left: 600px;
+  padding: 25px 50px;
+  width: 200px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+  border: 1.4px solid #458ff6;
+  border-radius: 55px;
+  color: #458ff6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.leading-container {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1313px;
+  margin-top: 220px;
+  margin-bottom: 229px;
+  display: flex;
+  align-items: center;
+}
+
+.leading-right {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 450px;
+  margin-left: 137px;
+}
+
+.leading-right-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  margin-bottom: 26px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+}
+
+.leading-right-href {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 56px;
+  margin: 0;
+  margin-bottom: 31px;
+  padding: 0;
+}
+
+.leading-right-paragrif {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  margin-bottom: 37px;
+  padding: 0;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+}
+
+.leading-right-link {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  padding: 25px 50px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+  color: #458ff6;
+  border: 1.4px solid #458ff6;
+  border-radius: 55px;
+}
